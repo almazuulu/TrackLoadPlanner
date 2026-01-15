@@ -1,7 +1,8 @@
-# Exceptions module
+"""Exceptions module."""
+
 from app.exceptions.handlers import (
-    PayloadTooLargeError,
-    setup_exception_handlers,
+    validation_exception_handler,
+    generic_exception_handler
 )
 
-__all__ = ["PayloadTooLargeError", "setup_exception_handlers"]
+__all__ = ["validation_exception_handler", "generic_exception_handler"]

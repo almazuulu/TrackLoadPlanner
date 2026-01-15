@@ -1,0 +1,75 @@
+{
+  "truck": {
+    "id": "truck-001",
+    "max_weight_lbs": 45000,
+    "max_volume_cuft": 2500
+  },
+  "orders": [
+    {
+      "id": "ORD-001",
+      "payout_cents": 125000,
+      "weight_lbs": 12000,
+      "volume_cuft": 600,
+      "origin": "Chicago, IL",
+      "destination": "Dallas, TX",
+      "pickup_date": "2026-01-15",
+      "delivery_date": "2026-01-18",
+      "is_hazmat": false
+    },
+    {
+      "id": "ORD-002",
+      "payout_cents": 98000,
+      "weight_lbs": 8500,
+      "volume_cuft": 450,
+      "origin": "Chicago, IL",
+      "destination": "Dallas, TX",
+      "pickup_date": "2026-01-15",
+      "delivery_date": "2026-01-17",
+      "is_hazmat": false
+    },
+    {
+      "id": "ORD-003",
+      "payout_cents": 145000,
+      "weight_lbs": 15000,
+      "volume_cuft": 800,
+      "origin": "Chicago, IL",
+      "destination": "Dallas, TX",
+      "pickup_date": "2026-01-16",
+      "delivery_date": "2026-01-19",
+      "is_hazmat": false
+    },
+    {
+      "id": "ORD-004",
+      "payout_cents": 75000,
+      "weight_lbs": 6000,
+      "volume_cuft": 350,
+      "origin": "Chicago, IL",
+      "destination": "Dallas, TX",
+      "pickup_date": "2026-01-15",
+      "delivery_date": "2026-01-17",
+      "is_hazmat": false
+    },
+    {
+      "id": "ORD-005",
+      "payout_cents": 200000,
+      "weight_lbs": 20000,
+      "volume_cuft": 1000,
+      "origin": "New York, NY",
+      "destination": "Miami, FL",
+      "pickup_date": "2026-01-15",
+      "delivery_date": "2026-01-20",
+      "is_hazmat": false
+    },
+    {
+      "id": "ORD-006",
+      "payout_cents": 180000,
+      "weight_lbs": 18000,
+      "volume_cuft": 900,
+      "origin": "Chicago, IL",
+      "destination": "Dallas, TX",
+      "pickup_date": "2026-01-17",
+      "delivery_date": "2026-01-19",
+      "is_hazmat": true
+    }
+  ]
+}

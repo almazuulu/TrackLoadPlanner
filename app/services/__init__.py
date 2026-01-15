@@ -1,4 +1,5 @@
-# Services module
-from app.services.optimizer import OptimizerService
+"""Services module."""
 
-__all__ = ["OptimizerService"]
+from app.services.optimizer import OptimizerService, optimize_load
+
+__all__ = ["OptimizerService", "optimize_load"]
